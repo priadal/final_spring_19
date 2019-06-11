@@ -1,0 +1,121 @@
+@media screen and (max-width: 667px) and (min-device-width: 375px){
+  #gallery{
+    float:none;
+    width: 100%;
+  }
+}
+
+@font-face {
+  font-family: FiraSansCondensed;
+  src: url(FiraSansCondensed-Bold-webfont.woff);
+}
+
+@font-face {
+  font-family: robotoslabbold;
+  src: url(RobotoSlab-Bold-webfont.woff);
+}
+
+@font-face {
+  font-family: robotoslabreg;
+  src: url(RobotoSlab-Regular-webfont.woff);
+}
+
+#gallery {
+	display: grid;
+	grid-template-columns:repeat(14,1fr);
+	grid-template-rows: repeat(8,1fr);
+	grid-gap: 15px;
+	justify-content: center;
+	
+}
+
+h1 {
+  color: #014262;
+  font-size: 95px;
+	z-index: 2;
+	font-family: FiraSansCondensed;
+}
+
+h2 {
+  color: #014262;
+	font-size: 20px;
+	font-family: robotoslabbold;
+}
+
+p {
+	font-size: 16px;
+	font-family: robotoslabreg;
+}
+
+#box-1 {
+	background-size: cover;
+	grid-row-start: 1;
+	grid-row-end: 5;
+	grid-column-start: 6;
+	grid-column-end: 10;
+}
+
+#box-2 {
+	background-size: cover;
+	grid-row-start: 3;
+	grid-row-end: 3;
+	grid-column-start: 7;
+	grid-column-end: 11;
+	margin-left:50px;
+}
+
+#box-3 {
+	background-size: cover;
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 7;
+	grid-column-end: 11;
+	margin-left:50px;
+}
+
+#box-4 {
+	background: url(https://raw.githubusercontent.com/priadal/final_spring_19/master/assets/images/john-westrock-706905-unsplash.jpg);
+  background-size: cover;
+	grid-row-start: 1;
+	grid-row-end: 10;
+	grid-column-start: 1;
+	grid-column-end: 7;
+  z-index: -1;
+  width: 100%;
+}
+
+#box-5 {
+	background: url(https://raw.githubusercontent.com/priadal/final_spring_19/master/assets/images/alex-shutin-203873-unsplash.jpg);
+  background-size: cover;
+	grid-row-start: 6;
+	grid-row-end: 8;
+	grid-column-start: 6;
+	grid-column-end: 8;
+  z-index: -1;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#box-6 {
+	background: url(https://raw.githubusercontent.com/priadal/final_spring_19/master/assets/images/matthew-brodeur-428829-unsplash.jpg);
+  background-size: cover;
+	grid-row-start: 6;
+	grid-row-end: 8;
+	grid-column-start: 8;
+	grid-column-end: 10;
+  z-index: -1;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+#box-7 {
+	background: url(https://github.com/priadal/final_spring_19/blob/master/assets/images/chris-osmond-385532-unsplash.jpg?raw=true);
+  background-size: cover;
+	grid-row-start: 6;
+	grid-row-end: 8;
+	grid-column-start: 10;
+	grid-column-end: 12;
+  z-index: -1;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
