@@ -7,17 +7,17 @@
 
 @font-face {
   font-family: FiraSansCondensed;
-  src: url(FiraSansCondensed-Bold-webfont.woff);
+  src: url(FiraSansCondensed-Bold-webfont.woff) format ('woff');
 }
 
 @font-face {
   font-family: robotoslabbold;
-  src: url(RobotoSlab-Bold-webfont.woff);
+  src: url(RobotoSlab-Bold-webfont.woff) format ('woff');
 }
 
 @font-face {
   font-family: robotoslabreg;
-  src: url(RobotoSlab-Regular-webfont.woff);
+  src: url(RobotoSlab-Regular-webfont.woff) format ('woff');
 }
 
 #gallery {
